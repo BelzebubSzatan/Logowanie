@@ -18,7 +18,7 @@
             <Label Text="Password" />
             <Entry x:Name="Password" />
             <Button Text="Login"
-                    Clicked="Login"
+                    Clicked="LoginClick"
                     BackgroundColor="LightBlue" />
         </FlexLayout>
     </StackLayout>

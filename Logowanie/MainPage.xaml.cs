@@ -27,7 +27,7 @@ namespace Logowanie
             InitializeComponent();
         }
 
-        public void Login(object sender, EventArgs e)
+        public void LoginClick(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(Login.Text) || string.IsNullOrEmpty(Password.Text))
                 return;
