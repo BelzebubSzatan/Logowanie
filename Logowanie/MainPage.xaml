@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Logowanie.MainPage">
+
+    <StackLayout>
+        <Label Text="Top 20 Logowanie"
+               HorizontalOptions="Center"
+               FontSize="30"
+               FontAttributes="Bold"
+               Padding="0,10,0,0" />
+        <FlexLayout Direction="Column"
+                    Padding="30"
+                    HeightRequest="200"
+                    JustifyContent="SpaceBetween">
+            <Label Text="Login" />
+            <Entry x:Name="Login" />
+            <Label Text="Password" />
+            <Entry x:Name="Password" />
+            <Button Text="Login"
+                    Clicked="Login"
+                    BackgroundColor="LightBlue" />
+        </FlexLayout>
+    </StackLayout>
+
+</ContentPage>

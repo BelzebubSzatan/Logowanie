@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logowanie.Android", "Logowanie.Android\Logowanie.Android.csproj", "{27BBB583-2555-49BC-8732-9355C7BF8A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logowanie", "Logowanie\Logowanie.csproj", "{9A3AA359-8237-4C5A-89AB-9405D51DF69C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27BBB583-2555-49BC-8732-9355C7BF8A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BBB583-2555-49BC-8732-9355C7BF8A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BBB583-2555-49BC-8732-9355C7BF8A3E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{27BBB583-2555-49BC-8732-9355C7BF8A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BBB583-2555-49BC-8732-9355C7BF8A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BBB583-2555-49BC-8732-9355C7BF8A3E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9A3AA359-8237-4C5A-89AB-9405D51DF69C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3AA359-8237-4C5A-89AB-9405D51DF69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3AA359-8237-4C5A-89AB-9405D51DF69C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9A3AA359-8237-4C5A-89AB-9405D51DF69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3AA359-8237-4C5A-89AB-9405D51DF69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3AA359-8237-4C5A-89AB-9405D51DF69C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA70CBD7-DC3C-47DD-9617-B21B785766DC}
+	EndGlobalSection
+EndGlobal
